@@ -27,6 +27,11 @@ function hoverEffect(){
             box.style.backgroundColor = "red";
         })
     })
+    boxes.forEach((box) => {
+        box.addEventListener("touchmove", () => {
+            box.style.backgroundColor = "red";
+        })
+    })
     /*boxes.forEach((box) => {
         box.addEventListener("mouseleave", () => {
             box.style.backgroundColor = "";
