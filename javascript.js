@@ -54,4 +54,10 @@ gridSizeSlider.addEventListener("mouseup", () => {
     hideGrid();
     drawGrid();
     hoverEffect();
-})
+});
+gridSizeSlider.addEventListener("touchend", () => {
+    gridSize = gridSizeSlider.value;
+    hideGrid();
+    drawGrid();
+    hoverEffect();
+});
